@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <!-- 4.**In your HTML**:
+
+    - Create a container div for our app. We will put all our elements inside this container and this container will be the parent of our app.
+      give this container a class name of `container`.
+    - Create an `<h2>` element with a "TO-DO App" as its content.
+    - Create a new `<div>` and give it an `id = "input-container"`, within your div:
+    
+      - Add an input text field,with an `id = inputTask`
+      - Add an Add button with an `id = addTask `.
+    
+    - Create another new div and give it an `id = "lists-container"`",
+      (do not add any task manually,let javaScript do that for you).
+      - create an empty unordered list `<ul>` and give it an `id=“todo-list”`.
+    
+    5. For now you do not have to worry about styling your project. -->
+
+    <!-- Container div for our app -->
+<div class="container">
+  <!-- TO-DO App heading -->
+  <h2>TO-DO App</h2>
+  
+  <!-- Input container div -->
+  <div id="input-container">
+    <!-- Input text field -->
+    <input type="text" id="inputTask">
+    <!-- Add button -->
+    <button id="addTask">Add</button>
+  </div>
+  
+  <!-- Lists container div -->
+  <div id="lists-container">
+    <!-- Unordered list to contain the todo items -->
+    <ul id="todo-list"></ul>
+  </div>
+</div>
+
+    
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
